@@ -5,15 +5,15 @@
 }
 @font-face {
     font-family:Montserrat;
-    src: url(/assets/font/Montserrat-VariableFont_wght.ttf);
+    src: url("/assets/font/Montserrat-VariableFont_wght.ttf");
 }
 @font-face {
     font-family:UTM Davida;
-    src: url(/assets/font/UTM\ Davida.ttf);
+    src: url("/assets/font/UTM\ Davida.ttf");
 }
 @font-face {
     font-family:SVN-Aptima;
-    src: url(/assets/font/SVN-Aptima.ttf);
+    src: url("/assets/font/SVN-Aptima.ttf");
 }
 .background-page{
     background-image:url('/assets/images/banner-01.jpg');
