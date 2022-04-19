@@ -1,0 +1,732 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Montserrat;
+    src: url(/assets/font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:UTM Davida;
+    src: url(/assets/font/UTM\ Davida.ttf);
+}
+@font-face {
+    font-family:SVN-Aptima;
+    src: url(/assets/font/SVN-Aptima.ttf);
+}
+main{
+    margin: 0px 12.5pc;
+}
+.search{
+    width: 700px;
+    height: 60px;
+    border: 3px solid #F4D58D;
+    box-sizing: border-box;
+    border-radius: 15px;
+    float: right;
+}
+/* Style the search field */
+
+form.search input[type=text] {
+    padding: 14px;
+    font-size: 24px;
+    border:none;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    width: 90%;
+    background:none;
+}
+
+/* Style the submit button */
+form.search button {
+    padding: 10px;
+    background:none;
+    color: #F4D58D;
+    font-size:30px;
+    border: 0px;
+    border-left: none; 
+    cursor: pointer;
+}
+
+/* Information */
+.contract-container{
+    padding-top:70px;
+    padding-bottom: 90px;
+}
+.text-contract {
+    padding-top: 20px;
+    width: 560px;
+    height: 340px;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+b{
+    font-weight:700;
+}
+/* icon */
+.icon-contract .ul-icon{
+    list-style-type: none;
+}
+.icon-contract .ul-icon li{
+    text-decoration: none;
+    display: inline;
+}
+.icon-contract .ul-icon li a{
+    color: #F4D58D;
+    padding-right: 35px;
+    font-size:40px;
+}
+/* map */
+.map{
+    position: absolute;
+    top: 19pc;
+    left: 62.5pc;
+}
+.map img{
+    width:705px;
+    height: 400px;
+}
+
+/* Reponsice */
+@media only screen and (max-width: 1580px){
+    .search{
+        width: 570px;
+        height: 60px;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 15px;
+        float: right;
+    }
+    /* Style the search field */
+    
+    form.search input[type=text] {
+        padding: 14px;
+        font-size: 24px;
+        border:none;
+        color: rgba(255, 255, 255, 0.5);
+        float: left;
+        width: 90%;
+        background:none;
+    }
+    
+    /* Style the submit button */
+    form.search button {
+        padding: 10px;
+        background:none;
+        color: #F4D58D;
+        font-size:30px;
+        border: 0px;
+        border-left: none; 
+        cursor: pointer;
+    }
+    
+    /* Information */
+    .contract-container{
+        padding-top:70px;
+        padding-bottom: 90px;
+    }
+    .text-contract {
+        padding-top: 20px;
+        width: 380px;
+        height: 340px;
+        font-family:'Montserrat';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    b{
+        font-weight:700;
+    }
+    /* icon */
+    .icon-contract .ul-icon{
+        list-style-type: none;
+    }
+    .icon-contract .ul-icon li{
+        text-decoration: none;
+        display: inline;
+    }
+    .icon-contract .ul-icon li a{
+        color: #F4D58D;
+        padding-right: 35px;
+        font-size:35px;
+    }
+    /* map */
+    .map{
+        position: absolute;
+        top: 20pc;
+        left: 46.8pc;
+    }
+    .map img{
+        width:570px;
+        height: 380px;
+    }
+}
+@media only screen and (max-width: 1280px){
+    main{
+        margin: 0px 7.5pc;
+    }
+    .search{
+        width: 520px;
+        height: 60px;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 15px;
+        float: right;
+    }
+    /* Style the search field */
+    
+    form.search input[type=text] {
+        padding: 14px;
+        font-size: 24px;
+        border:none;
+        color: rgba(255, 255, 255, 0.5);
+        float: left;
+        width: 90%;
+        background:none;
+    }
+    
+    /* Style the submit button */
+    form.search button {
+        padding: 10px;
+        background:none;
+        color: #F4D58D;
+        font-size:30px;
+        border: 0px;
+        border-left: none; 
+        cursor: pointer;
+    }
+    
+    /* Information */
+    .contract-container{
+        padding-top:80px;
+        padding-bottom: 90px;
+    }
+    .text-contract {
+        padding-top: 20px;
+        width: 380px;
+        height: 340px;
+        font-family:'Montserrat';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    b{
+        font-weight:700;
+    }
+    /* icon */
+    .icon-contract .ul-icon{
+        list-style-type: none;
+    }
+    .icon-contract .ul-icon li{
+        text-decoration: none;
+        display: inline;
+    }
+    .icon-contract .ul-icon li a{
+        color: #F4D58D;
+        padding-right: 35px;
+        font-size:35px;
+    }
+    /* map */
+    .map{
+        position: absolute;
+        top: 18pc;
+        left: 39.8pc;
+    }
+    .map img{
+        width:520px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 1080px){
+    main{
+        margin: 0px 5.5pc;
+    }
+    .search{
+        width: 410px;
+        height: 55px;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 15px;
+        float: right;
+    }
+    /* Style the search field */
+    
+    form.search input[type=text] {
+        padding: 10px;
+        font-size: 20px;
+        border:none;
+        color: rgba(255, 255, 255, 0.5);
+        float: left;
+        width: 80%;
+        background:none;
+    }
+    
+    /* Style the submit button */
+    form.search button {
+        padding: 8px;
+        margin-left: 20px;
+        background:none;
+        color: #F4D58D;
+        font-size:30px;
+        border: 0px;
+        border-left: none; 
+        cursor: pointer;
+    }
+    
+    /* Information */
+    .contract-container{
+        padding-top:80px;
+        padding-bottom: 90px;
+    }
+    .text-contract {
+        padding-top: 20px;
+        width: 315px;
+        height: 310px;
+        font-family:'Montserrat';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    b{
+        font-weight:700;
+    }
+    /* icon */
+    .icon-contract .ul-icon{
+        list-style-type: none;
+    }
+    .icon-contract .ul-icon li{
+        text-decoration: none;
+        display: inline;
+    }
+    .icon-contract .ul-icon li a{
+        color: #F4D58D;
+        padding-right: 35px;
+        font-size:30px;
+    }
+    /* map */
+    .map{
+        position: absolute;
+        top: 18pc;
+        left: 30.8pc;
+    }
+    .map img{
+        width:440px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 920px){
+    main{
+        margin: 0px 2.5pc;
+    }
+    .title-page{
+        width: 416px;
+        height: 85px;
+        margin-left: 18pc;
+        margin-bottom: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #F4D58D;
+    }
+    .search{
+        width: 740px;
+        height: 55px;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 15px;
+        float: none;
+        text-align: center;
+        align-items: center;
+    }
+    /* Style the search field */
+    
+    form.search input[type=text] {
+        padding: 10px;
+        font-size: 22px;
+        border:none;
+        color: rgba(255, 255, 255, 0.5);
+        float: left;
+        width: 90%;
+        background:none;
+    }
+    
+    /* Style the submit button */
+    form.search button {
+        padding: 8px;
+        margin-left: 20px;
+        background:none;
+        color: #F4D58D;
+        font-size:30px;
+        border: 0px;
+        border-left: none; 
+        cursor: pointer;
+    }
+    
+    /* Information */
+    .contract-container{
+        padding-top:27pc;
+        padding-bottom: 90px;
+        padding-left: 12pc;
+    }
+    .text-contract {
+        padding-top: 20px;
+        width: 375px;
+        height: 310px;
+        font-family:'Montserrat';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    b{
+        font-weight:700;
+    }
+    /* icon */
+    .icon-contract .ul-icon{
+        list-style-type: none;
+        padding-left: 6.5pc;
+    }
+    .icon-contract .ul-icon li{
+        text-decoration: none;
+    }
+    .icon-contract .ul-icon li a{
+        color: #F4D58D;
+        padding-right: 35px;
+        font-size:35px;
+    }
+    /* map */
+    .map{
+        position: absolute;
+        top: 25pc;
+        left: 2.8pc;
+    }
+    .map img{
+        width:735px;
+        height: 365px;
+    }
+}
+@media only screen and (max-width: 780px){
+    main{
+        margin: 0px 1.5pc;
+    }
+    .title-page{
+        width: 416px;
+        height: 85px;
+        margin-left: 18pc;
+        margin-bottom: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #F4D58D;
+    }
+    .search{
+        width: 715px;
+        height: 55px;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 15px;
+        float: none;
+        text-align: center;
+        align-items: center;
+    }
+    /* Style the search field */
+    
+    form.search input[type=text] {
+        padding: 10px;
+        font-size: 22px;
+        border:none;
+        color: rgba(255, 255, 255, 0.5);
+        float: left;
+        width: 90%;
+        background:none;
+    }
+    
+    /* Style the submit button */
+    form.search button {
+        padding: 8px;
+        margin-left: 20px;
+        background:none;
+        color: #F4D58D;
+        font-size:30px;
+        border: 0px;
+        border-left: none; 
+        cursor: pointer;
+    }
+    
+    /* Information */
+    .contract-container{
+        padding-top:27pc;
+        padding-bottom: 90px;
+        padding-left: 10.5pc;
+    }
+    .text-contract {
+        padding-top: 20px;
+        width: 375px;
+        height: 310px;
+        font-family:'Montserrat';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 40px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    b{
+        font-weight:700;
+    }
+    /* icon */
+    .icon-contract .ul-icon{
+        list-style-type: none;
+        padding-left: 6.5pc;
+    }
+    .icon-contract .ul-icon li{
+        text-decoration: none;
+    }
+    .icon-contract .ul-icon li a{
+        color: #F4D58D;
+        padding-right: 35px;
+        font-size:35px;
+    }
+    /* map */
+    .map{
+        position: absolute;
+        top: 21pc;
+        left: 1.8pc;
+    }
+    .map img{
+        width:715px;
+        height: 365px;
+    }
+}
+@media only screen and (max-width: 480px){
+    main{
+        margin: 0px 2.5pc;
+    }
+    .title-page{
+        width: 220px;
+        height: 85px;
+        margin-left: 5.5pc;
+        margin-bottom: 55px;
+        padding-top: 10pc;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 59px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F4D58D;
+    }
+    .search{
+        width: 340px;
+        height: 55px;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 15px;
+        float: none;
+        text-align: center;
+        align-items: center;
+    }
+    /* Style the search field */
+    
+    form.search input[type=text] {
+        padding: 16px;
+        font-size: 17px;
+        border:none;
+        color: rgba(255, 255, 255, 0.5);
+        float: left;
+        width: 78%;
+        background:none;
+    }
+    
+    /* Style the submit button */
+    form.search button {
+        padding: 8px;
+        margin-left: 20px;
+        background:none;
+        color: #F4D58D;
+        font-size:30px;
+        border: 0px;
+        border-left: none; 
+        cursor: pointer;
+    }
+    
+    /* Information */
+    .contract-container{
+        padding-top:18pc;
+        padding-bottom: 60px;
+        padding-left: 0px;
+    }
+    .text-contract {
+        padding-top: 20px;
+        width: 338px;
+        height: 310px;
+        font-family:'Montserrat';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 40px;
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 0px;
+        float: left;
+    }
+    b{
+        font-weight:700;
+    }
+    /* icon */
+    .icon-contract .ul-icon{
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    .icon-contract .ul-icon li{
+        text-decoration: none;
+        display: inline;
+    }
+    .icon-contract .ul-icon li a{
+        color: #F4D58D;
+        padding-right: 35px;
+        font-size:35px;
+    }
+    /* map */
+    .map{
+        position: absolute;
+        top: 20pc;
+        left: 2.5pc;
+    }
+    .map img{
+        width:340px;
+        height: 255px;
+    }
+}
+@media only screen and (max-width: 400px){
+    main{
+        margin: 0px 2pc;
+    }
+    .title-page{
+        width: 200px;
+        height: 85px;
+        margin-left: 4.5pc;
+        margin-bottom: 55px;
+        padding-top: 10pc;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 59px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F4D58D;
+    }
+    .search{
+        width: 312px;
+        height: 55px;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 15px;
+        float: none;
+        text-align: center;
+        align-items: center;
+    }
+    /* Style the search field */
+    
+    form.search input[type=text] {
+        padding: 16px;
+        font-size: 15px;
+        border:none;
+        color: rgba(255, 255, 255, 0.5);
+        float: left;
+        width: 78%;
+        background:none;
+    }
+    
+    /* Style the submit button */
+    form.search button {
+        padding: 8px;
+        margin-left: 20px;
+        background:none;
+        color: #F4D58D;
+        font-size:30px;
+        border: 0px;
+        border-left: none; 
+        cursor: pointer;
+    }
+    
+    /* Information */
+    .contract-container{
+        padding-top:15pc;
+        padding-bottom: 60px;
+        padding-left: 0px;
+    }
+    .text-contract {
+        padding-top: 0px;
+        width: 338px;
+        height: 310px;
+        font-family:'Montserrat';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 40px;
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 0px;
+        float: left;
+    }
+    b{
+        font-weight:700;
+    }
+    /* icon */
+    .icon-contract .ul-icon{
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    .icon-contract .ul-icon li{
+        text-decoration: none;
+        display: inline;
+    }
+    .icon-contract .ul-icon li a{
+        color: #F4D58D;
+        padding-right: 35px;
+        font-size:35px;
+    }
+    /* map */
+    .map{
+        position: absolute;
+        top: 20pc;
+        left: 2.5pc;
+    }
+    .map img{
+        width:300px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,1685 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Montserrat;
+    src: url(/assets/font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:UTM Davida;
+    src: url(/assets/font/UTM\ Davida.ttf);
+}
+@font-face {
+    font-family:SVN-Aptima;
+    src: url(/assets/font/SVN-Aptima.ttf);
+}
+.background-page{
+    background-image:url('/assets/images/banner-01.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px auto; 
+    padding-bottom:2.5pc ;
+}
+
+.navbar .container{
+    padding: 45px 12pc;
+
+}
+/* logo */
+.navbar .container .navbar-brand{
+    text-decoration: none;
+}
+.navbar .container .navbar-brand img{
+    width: 6.5%;
+    height: 7pc;
+}
+
+.logo{
+    display: inline;
+}
+#nav-toggle{
+    display: none;
+}
+.navbar-ul-li-a{
+    margin:0;
+}
+.nav-menu-1{
+    position: relative;
+    top: -2.5pc;
+    left: 25%;
+    transform: translateX(-50%);;
+    display: inline;
+    list-style-type: none;
+}
+.nav-menu-1 li{
+    display: inline;
+    padding: 0px 20px;
+}
+.nav-menu-1 li a{
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height:35px;
+    color: #F4D58D;
+    padding: 7px;
+}
+.nav-menu-1 li a:hover{
+    box-shadow: 0 3px #F4D58D;
+}
+/* icon */
+.nav-menu-2{
+    margin-top: 2.2pc;
+    display: inline;
+    float: right;
+    list-style-type: none;
+}
+.nav-menu-2 li{
+    display: inline;
+    padding: 0px 10px;
+}
+.nav-menu-2 li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #F4D58D;
+}
+
+/* main */
+.container-main{
+    margin-top:14pc ;
+    text-align: center;
+    align-items: center;
+}
+.title{
+    margin: 0px;
+    width: 44pc;
+    height: 150px;
+    font-family: 'UTM Davida';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 125px;
+    color: #F4D58D;
+    position: relative;
+    left: 50%;
+    transform: translateX(-48%);
+}
+.content-page{
+    margin: 0;
+    padding:0;
+    width: 37pc;
+    height: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    transform: translateX(115%);
+}
+.btn{
+    width: 12pc;
+    height: 70px;
+    font-family: 'SVN-Aptima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 30px;
+    color: #F4D58D;
+    border: 3px solid #F4D58D;
+    box-sizing: border-box;
+    border-radius: 35px;
+    background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+}
+.btn:hover{
+    background-color: #F4D58D;
+    color: black;
+}
+
+/*===== Footer ===== */
+.container-footer{
+    margin-top: 20px;
+}
+.logo-2{
+    padding-top: 10pc;
+    text-align: center;
+    align-items: center;
+}
+.logo-2 a img{
+    width: 55px;
+    height: 60px;
+}
+.nav-footer{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-footer .nav-ul-footer{
+    list-style-type: none;
+}
+.nav-footer .nav-ul-footer li{
+    display: inline;
+    padding: 10px;
+}
+.nav-footer .nav-ul-footer li a{
+    text-decoration: none;
+    width: 49.7px;
+    height: 28.26px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 11px;
+    color: #F4D58D;
+}
+.nav-icon-footer{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-icon-footer .nav-ul-icon-footer{
+    list-style-type: none;
+}
+.nav-icon-footer .nav-ul-icon-footer li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+.nav-icon-footer .nav-ul-icon-footer li a{
+    font-size: 50px;
+    color: #F4D58D;
+}
+.methor{
+    text-align: center;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    left: 40%;
+    width: 25px;
+    height: auto;
+    font-family: 'Montserrat';
+    color: white;
+    border: 2px solid white;
+    border-radius: 21px;
+    text-align: center;
+    align-items: center;
+}
+.text{
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 171%;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1580px){
+    .background-page{
+        background-image:url('/assets/images/banner-01.jpg');
+        background-repeat: no-repeat;
+        background-size: 1540px auto; 
+        padding-bottom:2pc ;
+    }
+    .navbar .container{
+        padding: 45px 12pc;
+
+    }
+    /* logo */
+    .navbar .container .navbar-brand{
+        text-decoration: none;
+    }
+    .navbar .container .navbar-brand img{
+        width: 8.5%;
+        height: 7.5pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    .nav-menu-1{
+        position: relative;
+        top: -2.5pc;
+        left: 12%;
+        transform: translateX(-50%);;
+        display: inline;
+        list-style-type: none;
+    }
+    .nav-menu-1 li{
+        display: inline;
+        padding: 0px 20px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height:35px;
+        color: #F4D58D;
+        padding: 7px;
+    }
+    .nav-menu-1 li a:hover{
+        box-shadow: 0 3px #F4D58D;
+    }
+    
+    /* icon */
+    .nav-menu-2{
+        margin-top: 3pc;
+        float: right;
+        list-style-type: none;
+    }
+    .nav-menu-2 li{
+        display: inline;
+        padding: 0px 10px;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 40px;
+        color: #F4D58D;
+    }
+    /* main */
+    .container-main{
+        margin-top:5pc ;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 44pc;
+        height: 120px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 105px;
+        color: #F4D58D;
+        position: relative;
+        left: 50%;
+        transform: translateX(-52%);
+    }
+    .content-page{
+        margin: 0;
+        padding:0;
+        width: 30.5pc;
+        height: 70px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #FFFFFF;
+        transform: translateX(103%);
+    }
+    .btn{
+        width: 12pc;
+        height: 70px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    .btn :hover{
+        background-color: #F4D58D;
+        color: black;
+    }
+    /* footer */
+    .container-footer{
+        margin-top: 0px;
+    }
+    .logo-2{
+        padding-top: 7pc;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-2 a img{
+        width: 55px;
+        height: 60px;
+    }
+
+    .icon{
+        position: absolute;
+        left: 37%;
+        width: 25px;
+        height: auto;
+        font-family: 'Montserrat';
+        color: white;
+        border: 2px solid white;
+        border-radius: 21px;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .background-page{
+        background-image:url('/assets/images/banner-01.jpg');
+        background-repeat: no-repeat;
+        background-size: 1400px auto; 
+        padding-bottom:10pc ;
+    }
+    .navbar .container{
+        padding: 45px 7pc;
+
+    }
+    /* logo */
+    .navbar .container .navbar-brand img{
+        width: 7%;
+        height: 5.7pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    .nav-menu-1{
+        position: relative;
+        left: 43%;
+        transform: translateX(-50%);;
+        display: inline-block;
+        list-style-type: none;
+    }
+    .nav-menu-1 li{
+        display: inline;
+        padding: 0px 17.5px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height:35px;
+        color: #F4D58D;
+    }
+    .nav-menu-1 li a:hover{
+        box-shadow: 0 3px #F4D58D;
+    }
+    /* icon */
+    .nav-menu-2{
+        margin-top: 1.5pc;
+        display: inline;
+        float: right;
+        list-style-type: none;
+    }
+    .nav-menu-2 li{
+        display: inline;
+        padding: 0px 10px;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 40px;
+        color: #F4D58D;
+    }
+
+    hr{
+        display: none;
+    }
+    /* main */
+    .container-main{
+        margin-top:6pc;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 37pc;
+        height: 127px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        color: #F4D58D;
+        position: relative;
+        transform: translateX(-48%);
+    }
+    .content-page{
+        margin: 0;
+        padding:0;
+        width: 30pc;
+        height: 70px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #FFFFFF;
+        transform: translateX(87%);
+    }
+    .btn{
+        width: 12pc;
+        height: 70px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    .btn :hover{
+        background-color: #F4D58D;
+        color: black;
+    }
+
+        /* footer */
+    .container-footer{
+        margin-top: 0px;
+    }
+    .logo-2{
+        padding-top: 4pc;
+        text-align: center;
+        align-items: center;
+    }
+    .icon{
+        left: 35%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .background-page{
+        background-image:url('/assets/images/banner-01.jpg');
+        background-repeat: no-repeat;
+        background-size: 1100px auto; 
+        padding-bottom:5.2pc ;
+    }
+    .navbar .container{
+        padding: 45px 5pc;
+
+    }
+    /* logo */
+    .navbar .container .navbar-brand img{
+        width: 8%;
+        height: 5pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    .navbar-ul-li-a{
+        margin: -4pc auto;
+    }
+    .nav-menu-1{
+        position: relative;
+        top: -1.2pc;
+        left: 42.5%;
+        transform: translateX(-50%);;
+        display: inline-block;
+        list-style-type: none;
+    }
+    .nav-menu-1 li{
+        display: inline;
+        padding: 0px 17px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height:35px;
+        color: #F4D58D;
+    }
+    /* icon */
+    .nav-menu-2{
+        margin-top: 2.5pc;
+        display: inline;
+        float: right;
+        list-style-type: none;
+    }
+    .nav-menu-2 li{
+        display: inline;
+        padding: 0px 10px;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: #F4D58D;
+    }
+
+    hr{
+        display: none;
+    }
+    /* main */
+    .container-main{
+        margin-top:2pc;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 44pc;
+        height: 100px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        color: #F4D58D;
+        position: relative;
+        transform: translateX(-50%);
+    }
+    .content-page{
+        margin: 0;
+        padding:0;
+        width: 24pc;
+        height: 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        color: #FFFFFF;
+        transform: translateX(84%);
+    }
+    .btn{
+        width: 8pc;
+        height: 60px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    .btn :hover{
+        background-color: #F4D58D;
+        color: black;
+    }
+    /* footer */
+    .container-footer{
+        margin-top: 0px;
+    }
+    .logo-2{
+        padding-top: 5pc;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-2 a img{
+        width: 40px;
+        height: 40px;
+    }
+    .nav-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-footer .nav-ul-footer{
+        list-style-type: none;
+    }
+    .nav-footer .nav-ul-footer li{
+        display: inline;
+        padding: 10px;
+    }
+    .nav-footer .nav-ul-footer li a{
+        text-decoration: none;
+        width: 49.7px;
+        height: 28.26px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 11px;
+        color: #F4D58D;
+    }
+    .nav-icon-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer{
+        list-style-type: none;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li a{
+        font-size: 22px;
+        color: #F4D58D;
+    }
+    .methor{
+        text-align: center;
+        align-items: center;
+    }
+    .icon{
+        position: absolute;
+        left: 37%;
+        width: 20px;
+        font-size: 12px;
+        height: auto;
+        font-family: 'Montserrat';
+        color: white;
+        border: 2px solid white;
+        border-radius: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        line-height: 171%;
+        color: #FFFFFF;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 920px){
+    .background-page{
+        background-image:none;
+        padding-bottom: 0px;
+    }
+    .background-phone{
+        background-image: url('/assets/images/background-phone.png');
+        background-repeat: no-repeat;
+        background-size: 1000px auto; 
+        padding-bottom: 60px;
+    }
+    .navbar .container{
+        padding: 50px 2pc;
+    }
+    /* logo */
+    .navbar .container .navbar-brand img{
+        width: 10%;
+        height: 6pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    .navbar-ul-li-a{
+        margin: -10pc auto;
+    }
+    .nav-menu-1{
+        position: relative;
+        top: -1.2pc;
+        left: 40%;
+        transform: translateX(-50%);;
+        display: inline-block;
+        list-style-type: none;
+    }
+    .nav-menu-1 li{
+        display: inline;
+        padding: 0px 5px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height:35px;
+        color: #F4D58D;
+        box-shadow: none !important;
+    }
+    /* icon */
+    .nav-menu-2{
+        margin-top: 3.2pc;
+        display: inline;
+        float: right;
+        list-style-type: none;
+    }
+    .nav-menu-2 li{
+        display: inline;
+        padding: 0px 10px;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: #F4D58D;
+    }
+
+    /* main */
+    .container-main{
+        margin-top:20pc;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 44pc;
+        height: 120px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        color: #F4D58D;
+        position: relative;
+        transform: translateX(-49%);
+    }
+    .content-page{
+        margin: 0;
+        padding:0;
+        width: 32pc;
+        height: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        transform: translateX(40%);
+    }
+    .btn{
+        width: 8pc;
+        height: 60px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    .btn :hover{
+        background-color: #F4D58D;
+        color: black;
+    }
+    /* footer */
+    .container-footer{
+        margin-top: 10pc;
+    }
+    .logo-2{
+        padding-top: 10pc;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-2 a img{
+        width: 70px;
+        height: 70px;
+    }
+    .nav-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-footer .nav-ul-footer{
+        list-style-type: none;
+    }
+    .nav-footer .nav-ul-footer li{
+        display: inline;
+        padding: 10px;
+    }
+    .nav-footer .nav-ul-footer li a{
+        text-decoration: none;
+        width: 49.7px;
+        height: 35px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 11px;
+        color: #F4D58D;
+    }
+    .nav-icon-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer{
+        list-style-type: none;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li a{
+        font-size: 25px;
+        color: #F4D58D;
+    }
+    .methor{
+        text-align: center;
+        align-items: center;
+    }
+    .icon{
+        position: absolute;
+        left: 30%;
+        width: 20px;
+        font-size: 12px;
+        height: auto;
+        font-family: 'Montserrat';
+        color: white;
+        border: 2px solid white;
+        border-radius: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 171%;
+        color: #FFFFFF;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 780px){
+    .background-page{
+        background-image:none;
+        padding-bottom: 0px;
+    }
+    .background-phone{
+        background-image: url('/assets/images/background-phone.png');
+        background-repeat: no-repeat;
+        background-size: 770px auto; 
+        padding-bottom: 60px;
+    }
+    .navbar .container{
+        padding: 30px 1.5pc;
+    }
+    /* logo */
+    .navbar .container .navbar-brand img{
+        width: 8%;
+        height: 4.5pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    .navbar-ul-li-a{
+        margin: -4pc auto;
+    }
+    .nav-menu-1{
+        position: relative;
+        top: -1.2pc;
+        left: 40%;
+        transform: translateX(-50%);;
+        display: inline-block;
+        list-style-type: none;
+    }
+    .nav-menu-1 li{
+        display: inline;
+        padding: 0px 5px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height:35px;
+        color: #F4D58D;
+    }
+    /* icon */
+    .nav-menu-2{
+        margin-top: 1.6pc;
+        display: inline;
+        float: right;
+        list-style-type: none;
+    }
+    .nav-menu-2 li{
+        display: inline;
+        padding: 0px 10px;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: #F4D58D;
+    }
+
+    /* main */
+    .container-main{
+        margin-top:20pc;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 44pc;
+        height: 120px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        color: #F4D58D;
+        position: relative;
+        transform: translateX(-50%);
+    }
+    .content-page{
+        margin: 0;
+        padding:0;
+        width: 32pc;
+        height: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        transform: translateX(25%);
+    }
+    .btn{
+        width: 8pc;
+        height: 60px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    .btn :hover{
+        background-color: #F4D58D;
+        color: black;
+    }
+    /* footer */
+    .container-footer{
+        margin-top: 10pc;
+    }
+    .logo-2{
+        padding-top: 5pc;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-2 a img{
+        width: 70px;
+        height: 70px;
+    }
+    .nav-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-footer .nav-ul-footer{
+        list-style-type: none;
+    }
+    .nav-footer .nav-ul-footer li{
+        display: inline;
+        padding: 10px;
+    }
+    .nav-footer .nav-ul-footer li a{
+        text-decoration: none;
+        width: 49.7px;
+        height: 35px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 11px;
+        color: #F4D58D;
+    }
+    .nav-icon-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer{
+        list-style-type: none;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li a{
+        font-size: 25px;
+        color: #F4D58D;
+    }
+    .methor{
+        text-align: center;
+        align-items: center;
+    }
+    .icon{
+        position: absolute;
+        left: 30%;
+        width: 20px;
+        font-size: 12px;
+        height: auto;
+        font-family: 'Montserrat';
+        color: white;
+        border: 2px solid white;
+        border-radius: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 171%;
+        color: #FFFFFF;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    .background-page{
+        background-image:none;
+        padding-bottom: 0px;
+    }
+    .background-phone{
+        background-image: url('/assets/images/background-phone.png');
+        background-repeat: no-repeat;
+        background-size: 500px auto; 
+        padding-bottom: 60px;
+    }
+    .navbar .container{
+        padding: 15px 2pc;
+    }
+    /* logo */
+    .navbar .container .navbar-brand img{
+        float:right;
+        width: 22%;
+        height: 5.7pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    #nav-toggle{
+        position: absolute;
+        display: block;
+        float: left;
+        margin-top: 1pc;
+        font-size: 40px;
+        padding: 10px 0px;
+        color: #F4D58D;
+    }
+    .navbar-ul-li-a{
+        display: none;
+    }
+    .navbar-ul-li-a{
+        position: absolute;
+        top:20%;
+    }
+    .nav-menu-1{
+        flex-direction: column;
+        display: block;
+    }
+    .nav-menu-1 li{
+        display: block;
+        padding: 0px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height:30px;
+        color: #F4D58D;
+    }
+    /* icon */
+    .nav-menu-2{
+        margin-top: 0px;
+        display: block;
+        list-style-type: none;
+        float: left;
+    }
+    .nav-menu-2 li{
+        display: block;
+        padding: 5px 0px;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 25px;
+        color: #F4D58D;
+    }
+    
+    /* main */
+    .container-main{
+        margin-top:15pc;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 25pc;
+        height: 170px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        color: #F4D58D;
+        position: relative;
+        left: 50%;
+        transform: translateX(-49%);
+    }
+    .content-page{
+        margin: -6pc 0pc;
+        padding:0;
+        width: 20pc;
+        height: 150px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #FFFFFF;
+        transform: translateX(14%);
+    }
+    .btn{
+        width: 7pc;
+        height: 40px;
+        margin-top: 40px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    /* footer */
+    .container-footer{
+        margin-top: 10pc;
+    }
+    .logo-2{
+        padding-top: 10pc;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-2 a img{
+        width: 55px;
+        height: 60px;
+    }
+    .nav-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-footer .nav-ul-footer{
+        list-style-type: none;
+    }
+    .nav-footer .nav-ul-footer li{
+        display: inline;
+        padding: 7px;
+    }
+    .nav-footer .nav-ul-footer li a{
+        text-decoration: none;
+        width: 49.7px;
+        height: 28.26px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 11px;
+        color: #F4D58D;
+    }
+    .nav-icon-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer{
+        list-style-type: none;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li a{
+        font-size: 27px;
+        color: #F4D58D;
+    }
+    .methor{
+        text-align: center;
+        align-items: center;
+    }
+    .icon{
+        position: absolute;
+        left: 5%;
+        width: 20px;
+        height: auto;
+        font-family: 'Montserrat';
+        color: white;
+        border: 2px solid white;
+        border-radius: 21px;
+        text-align: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 171%;
+        color: #FFFFFF;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 400px){
+    .background-page{
+        background-image:none;
+        padding-bottom: 0px;
+    }
+    .background-phone{
+        background-image: url('/assets/images/background-phone.png');
+        background-repeat: no-repeat;
+        background-size: 500px auto; 
+        padding-bottom: 60px;
+    }
+    .navbar .container{
+        padding: 17px 2pc;
+
+    }
+    /* logo */
+    .navbar .container .navbar-brand img{
+        display: block;
+        width: 17%;
+        height: 4pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    #nav-toggle{
+        display: block;
+        float: left;
+        margin-top: 1pc;
+        font-size: 30px;
+        padding: 10px 0px;
+        color: #F4D58D;
+    }
+    .navbar-ul-li-a{
+        display: none;
+    }
+    .navbar-ul-li-a{
+        position: absolute;
+        top:22%;
+        left: 22px;
+    }
+    .nav-menu-1{
+        padding-top: 0px;
+        flex-direction: column;
+        display: block;
+    }
+    .nav-menu-1 li{
+        display: block;
+        padding: 10px 12px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height:22px;
+        color: #F4D58D;
+    }
+    /* icon */
+    .nav-menu-2{
+        margin-top: -20px;
+        display: block;
+        list-style-type: none;
+        float: left;
+    }
+    .nav-menu-2 li{
+        display: block;
+        padding: 5px 10px ;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: #F4D58D;
+    }
+    
+    
+    /* main */
+    .container-main{
+        margin-top:17pc;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 22pc;
+        height: 150px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        color: #F4D58D;
+        position: relative;
+        left: 50%;
+        transform: translateX(-49%);
+    }
+    .content-page{
+        margin: -6pc 0pc;
+        padding:0;
+        width: 18pc;
+        height: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        color: #FFFFFF;
+        transform: translateX(15%);
+    }
+    .btn{
+        width: 7pc;
+        height: 40px;
+        margin-top: 40px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    /* footer */
+    .container-footer{
+        margin-top: 10pc;
+    }
+    .logo-2{
+        padding-top: 12pc;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-2 a img{
+        width: 55px;
+        height: 60px;
+    }
+    .nav-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-footer .nav-ul-footer{
+        list-style-type: none;
+    }
+    .nav-footer .nav-ul-footer li{
+        display: inline;
+        padding: 7px;
+    }
+    .nav-footer .nav-ul-footer li a{
+        text-decoration: none;
+        width: 49.7px;
+        height: 28.26px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 11px;
+        color: #F4D58D;
+    }
+    .nav-icon-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer{
+        list-style-type: none;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li a{
+        font-size: 27px;
+        color: #F4D58D;
+    }
+    .methor{
+        text-align: center;
+        align-items: center;
+    }
+    .icon{
+        position: absolute;
+        left: 5%;
+        width: 20px;
+        height: auto;
+        font-family: 'Montserrat';
+        color: white;
+        border: 2px solid white;
+        border-radius: 21px;
+        text-align: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 171%;
+        color: #FFFFFF;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 380px){
+    .background-page{
+        background-image:none;
+        padding-bottom: 0px;
+    }
+    .background-phone{
+        background-image: url('/assets/images/background-phone.png');
+        background-repeat: no-repeat;
+        background-size: 500px auto; 
+        padding-bottom: 60px;
+    }
+    .navbar .container{
+        padding: 15px 2pc;
+
+    }
+    /* logo */
+    .navbar .container .navbar-brand img{
+        display: block;
+        width: 17%;
+        height: 4pc;
+    }
+
+    .logo{
+        display: inline;
+    }
+    #nav-toggle{
+        display: block;
+        float: left;
+        margin-top: 1pc;
+        font-size: 30px;
+        padding: 10px 0px;
+        color: #F4D58D;
+    }
+    .navbar-ul-li-a{
+        display: none;
+    }
+    .navbar-ul-li-a{
+        position: absolute;
+        top:22%;
+        left: 22px;
+    }
+    .nav-menu-1{
+        padding-top: 20px;
+        flex-direction: column;
+        display: block;
+    }
+    .nav-menu-1 li{
+        display: block;
+        padding: 10px 12px;
+    }
+    .nav-menu-1 li a{
+        text-decoration: none;
+        font-size: 27px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height:22px;
+        color: #F4D58D;
+    }
+    /* icon */
+    .nav-menu-2{
+        margin-top: -20px;
+        display: block;
+        list-style-type: none;
+        float: left;
+    }
+    .nav-menu-2 li{
+        display: block;
+        padding: 5px 10px ;
+    }
+    .nav-menu-2 li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: #F4D58D;
+    }
+    
+    
+    /* main */
+    .container-main{
+        margin-top:17pc;
+        text-align: center;
+        align-items: center;
+    }
+    .title{
+        margin: 0px;
+        width: 22pc;
+        height: 150px;
+        font-family: 'UTM Davida';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        color: #F4D58D;
+        position: relative;
+        left: 50%;
+        transform: translateX(-49%);
+    }
+    .content-page{
+        margin: -6pc 0pc;
+        padding:0;
+        width: 18pc;
+        height: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        color: #FFFFFF;
+        transform: translateX(15%);
+    }
+    .btn{
+        width: 7pc;
+        height: 40px;
+        margin-top: 40px;
+        font-family: 'SVN-Aptima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #F4D58D;
+        border: 3px solid #F4D58D;
+        box-sizing: border-box;
+        border-radius: 35px;
+        background: url(geraldine-lewa-N_Z91Evs_oM-unsplash.jpg);
+    }
+    /* footer */
+    .container-footer{
+        margin-top: 10pc;
+    }
+    .logo-2{
+        padding-top: 12pc;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-2 a img{
+        width: 55px;
+        height: 60px;
+    }
+    .nav-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-footer .nav-ul-footer{
+        list-style-type: none;
+    }
+    .nav-footer .nav-ul-footer li{
+        display: inline;
+        padding: 7px;
+    }
+    .nav-footer .nav-ul-footer li a{
+        text-decoration: none;
+        width: 49.7px;
+        height: 28.26px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 11px;
+        color: #F4D58D;
+    }
+    .nav-icon-footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer{
+        list-style-type: none;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+    }
+    .nav-icon-footer .nav-ul-icon-footer li a{
+        font-size: 27px;
+        color: #F4D58D;
+    }
+    .methor{
+        text-align: center;
+        align-items: center;
+    }
+    .icon{
+        position: absolute;
+        left: 5%;
+        width: 20px;
+        height: auto;
+        font-family: 'Montserrat';
+        color: white;
+        border: 2px solid white;
+        border-radius: 21px;
+        text-align: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 171%;
+        color: #FFFFFF;
+        text-align: center;
+        align-items: center;
+    }
+}
